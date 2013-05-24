@@ -7,13 +7,13 @@ dp.sh.Brushes.Java = function()
                      + ' const static retain TRUE FALSE ON OFF';
                 
         this.regexList = [
-                { regex: new RegExp(this.getKeywords(datatypes), 'gm'), css: 'color2' },        // primitive data types
-                { regex: new RegExp(this.getKeywords(keywords), 'gm'),  css: 'color2' },        // keywords
+                { regex: new RegExp(this.GetKeywords(datatypes), 'gm'), css: 'color2' },        // primitive data types
+                { regex: new RegExp(this.GetKeywords(keywords), 'gm'),  css: 'color2' },        // keywords
                 { regex: new RegExp('@\\w+\\b', 'g'),                   css: 'color2' },        // @-keywords
                 { regex: new RegExp('[: ]nil', 'g'),                    css: 'color2' },        // nil-workaround
                 { regex: new RegExp(' \\w+(?=[:\\]])', 'g'),            css: 'variable' },      // messages
-                { regex: SyntaxHighlighter.regexLib.singleLineCComments,css: 'comments' },      // comments
-                { regex: SyntaxHighlighter.regexLib.multiLineCComments, css: 'comments' },      // comments
+                { regex: dp.sh.RegexLib.SingleLineCComments,			css: 'comments' },      // comments
+                { regex: dp.sh.RegexLib.MultiLineCComments, 			css: 'comments' },      // comments
                 { regex: new RegExp('@"[^"]*"', 'gm'),                  css: 'string' },        // strings
                 { regex: new RegExp('\\d', 'gm'),                       css: 'string' },        // numeric values
                 { regex: new RegExp('^ *#.*', 'gm'),                    css: 'preprocessor' },  // preprocessor
