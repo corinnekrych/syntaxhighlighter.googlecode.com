@@ -38,11 +38,8 @@ dp.SyntaxHighlighter.HighlightAll('code');
 <pre>
 &lt;pre name=&quot;code&quot; class=&quot;objc&quot;&gt;
 #import &quot;AGAppDelegate.h&quot;
-
 #import &quot;AGViewController.h&quot;
-
 @implementation AGAppDelegate
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
