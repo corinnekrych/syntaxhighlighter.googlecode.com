@@ -6,7 +6,7 @@ Objective-C syntax coloring working with [syntaxhighlighter](https://code.google
 How to configure your google blogger
 ====================================
 
-1. After that open your blogger template (In Edit HTML mode) & copy the all css given in this link before </b:skin> tag
+1. After that open your blogger template (In Edit HTML mode) & copy the all css given in this [link](https://raw.github.com/corinnekrych/syntaxhighlighter.googlecode.com/master/css/syntaxhighlighter.css) before <code></b:skin><code> tag
 2. Copy paste the followin includes before </head> tag
 <pre>
 <script src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shCore.js' type='text/javascript'></script>
