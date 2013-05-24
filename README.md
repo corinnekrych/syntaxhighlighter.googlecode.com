@@ -40,7 +40,7 @@ dp.SyntaxHighlighter.HighlightAll('code');
 #import &quot;AGAppDelegate.h&quot;
 #import &quot;AGViewController.h&quot;
 @implementation AGAppDelegate
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
