@@ -35,6 +35,7 @@ dp.SyntaxHighlighter.HighlightAll('code');
 </pre>
 4. Save Blogger Template.
 5. Now syntax highlighting is ready to use you can use it as below:
+<pre>
 &lt;pre name=&quot;code&quot; class=&quot;objc&quot;&gt;
 #import &quot;AGAppDelegate.h&quot;
 
