@@ -26,20 +26,20 @@ How to configure your google blogger
 <script src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shBrushXml.js' type='text/javascript'></script>
 <script src='https://raw.github.com/corinnekrych/syntaxhighlighter.googlecode.com/master/scripts/shBrushObjc.js' type='text/javascript'/>
 </pre>
-3.  Paste the following code before &lt;/body&gt; tag.
+3. Paste the following code before &lt;/body&gt; tag.
 <pre>
-<script language='javascript'>
+&lt;script language='javascript'&gt;
 dp.SyntaxHighlighter.BloggerMode();
 dp.SyntaxHighlighter.HighlightAll('code');
-</script>
+&lt;/script&gt;
 </pre>
-5. Save Blogger Template.
-6. Now syntax highlighting is ready to use you can use it with <pre></pre> tag.
+4. Save Blogger Template.
+5. Now syntax highlighting is ready to use you can use it with <pre></pre> tag.
 <pre>
-<pre name="code" class="objc">
-#import "AGAppDelegate.h"
+&lt;pre name=&quot;code&quot; class=&quot;objc&quot;&gt;
+#import &quot;AGAppDelegate.h&quot;
 
-#import "AGViewController.h"
+#import &quot;AGViewController.h&quot;
 
 @implementation AGAppDelegate
 
@@ -47,11 +47,11 @@ dp.SyntaxHighlighter.HighlightAll('code');
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[AGViewController alloc] initWithNibName:@"AGViewController" bundle:nil];
+    self.viewController = [[AGViewController alloc] initWithNibName:@&quot;AGViewController&quot; bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
-</pre>
+&lt;/pre&gt;
 </pre>
 7. You can Escape your code [here](http://accessify.com/tools-and-wizards/developer-tools/quick-escape/default.php).
