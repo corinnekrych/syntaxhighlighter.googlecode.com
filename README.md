@@ -42,5 +42,5 @@ dp.SyntaxHighlighter.HighlightAll('code');
 </pre>
 7. You can Escape your code [here](http://accessify.com/tools-and-wizards/developer-tools/quick-escape/default.php).
 
-Your see example of integration in [blog](corinnekrych.org)
+Your see example of integration in [blog](http://corinnekrych.org)
 
