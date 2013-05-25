@@ -37,18 +37,10 @@ dp.SyntaxHighlighter.HighlightAll('code');
 5. Now syntax highlighting is ready to use you can use it as below:
 <pre>
 &lt;pre name=&quot;code&quot; class=&quot;objc&quot;&gt;
-#import &quot;AGAppDelegate.h&quot;
-#import &quot;AGViewController.h&quot;
-@implementation AGAppDelegate
-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[AGViewController alloc] initWithNibName:@&quot;AGViewController&quot; bundle:nil];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
-}
+// write your objective-c code here
 &lt;/pre&gt;
 </pre>
 7. You can Escape your code [here](http://accessify.com/tools-and-wizards/developer-tools/quick-escape/default.php).
+
+Your see example of integration in [blog](corinnekrych.org)
+
